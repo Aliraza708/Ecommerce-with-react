@@ -5,7 +5,7 @@ function Navbar() {
 <nav className="bg-gray-800 p-4 sticky top-0 z-10">
   <div className="container mx-auto flex justify-between items-center">
     <div className="text-white text-xl font-bold">Brand</div>
-    <div className="hidden md:flex space-x-6">
+    <div className="md:flex space-x-6">
       <Link to={'/'} className="text-gray-300 hover:text-white">
         Home
       </Link>
